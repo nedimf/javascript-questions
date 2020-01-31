@@ -44,9 +44,9 @@ function sayHi() {
 sayHi();
 ```
 
-- A: "Lydia" i "undefined"
-- B: "Lydia" i "ReferenceError"
-- C: "ReferenceError" i "21"
+- A: `"Lydia"` i `"undefined"`
+- B: `"Lydia"` i `"ReferenceError"`
+- C: `"ReferenceError"` i `"21"`
 - D: `undefined` i` ReferenceError`
 
 <details><summary><b>Odgovor</b></summary>
@@ -85,8 +85,8 @@ for (let i = 0; i < 3; i++) {
 ```
 
 - A: `0 1 2` i` 0 1 2`
-- B: "0 1 2" i "3 3 3"
-- C: "3 3 3" i "0 1 2"
+- B: `"0 1 2"` i `"3 3 3"`
+- C: `"3 3 3" i "0 1 2"`
 
 <details><summary><b> Odgovor</b></summary>
 <p>
@@ -126,10 +126,10 @@ shape.diameter();
 shape.perimeter();
 ```
 
-- A: "20" i "62.83185307179586"
-- B: "20" i "NaN"
-- C: "20" i "63"
-- D: "NaN" i "63"
+- A: `"20"` i `"62.83185307179586"`
+- B: `"20"` i `"NaN"`
+- C: `"20"` i `"63"`
+- D: `"NaN"` i `"63"`
 
 <details> <summary> <b> Odgovor </b> </summary>
 </p>
@@ -158,9 +158,9 @@ Na tom objektu nema vrijednosti `radius` koja vraća` undefined`.
 !"Lydia";
 ```
 
-- A: "1" i "false"
-- B: "false" i "NaN"
-- C: "false" i "false"
+- A: `"1"` i `"false"`
+- B: `"false"` i `"NaN"`
+- C: `"false"` i `"false"`
 
 <details> <summary> <b> Odgovor </b> </summary>
 </p>
@@ -191,10 +191,10 @@ const mouse = {
 };
 ```
 
-- A: `mouse.bird.size 'nije valjan
+- A: `mouse.bird.size` nije valjan
 - B: `mouse [bird.size]` nije važeća
 - C: `miš [bird [" veličina "]]` nije važeća
-- D: Svi su valjani
+- D: `Svi su valjani`
 
 <details> <summary> <b> Odgovor </b> </summary>
 </p>
@@ -237,10 +237,10 @@ c.greeting = "Hello";
 console.log(d.greeting);
 ```
 
-- A: "Zdravo"
-- B: 'Hej'
+- A: `"Zdravo"`
+- B: `'Hej'`
 - C: `undefined`
-- D: "ReferenceError"
+- D: `"ReferenceError"`
 - E: `TypeError`
 
 <details> <summary> <b> Odgovor </b> </summary>
@@ -319,9 +319,9 @@ const freddie = new Chameleon({ newColor: "purple" });
 freddie.colorChange("orange");
 ```
 
-- A: 'narančasta'
-- B: "ljubičasta"
-- C: "zelena"
+- A: `'narančasta'`
+- B: `"ljubičasta"`
+- C: `"zelena"`
 - D: `TypeError`
 
 <details> <summary> <b> Odgovor </b> </summary>
@@ -384,7 +384,7 @@ bark.animal = "dog";
 - A: Ništa, ovo je u redu!
 - B: `SyntaxError`. Na ovaj način ne možete dodavati svojstva funkciji.
 - C: `undefined`
-- D: "ReferenceError"
+- D: `"ReferenceError"`
 
 <details> <summary> <b> Odgovor </b> </summary>
 </p>
@@ -548,9 +548,9 @@ function sum(a, b) {
 sum(1, "2");
 ```
 
-- A: "NaN"
+- A: `"NaN"`
 - B: `TypeError`
-- C: "12"
+- C: `"12"`
 - D: `3`
 
 <details> <summary> <b> Odgovor </b> </summary>
